@@ -1,0 +1,95 @@
+.carus{
+    width: 1920px;
+    height: 1080px;
+    
+}
+<!-- carusel-final @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
+
+.carousel-item img{
+    /* border: 10px solid black; */
+    max-width: 100px;
+    height: 100px;
+}
+
+#carouselExampleDark{
+    /* border: 2px solid green; */
+    width: 40%;
+ margin: auto;
+}
+#publishers{
+    /* border: 2px solid black; */
+    width: 100%;
+}
+@media (max-width: 991px) {
+    #carouselExampleDark{
+        width: 100%;
+    }
+}
+
+.carousel-inner{
+    /* border: 2px solid red; */
+    width: 100%;
+}
+
+
+.carousel-control-buttons .btn{
+    width: 40px;
+    height: 40px;
+    position: static;
+    /* margin-top: 30%; */
+    background-color: #0d6efd;    /*--primary*/
+    opacity: 1 !important;
+
+}
+
+
+.carousel-control-buttons .btn:hover{
+    border-color: rgb(86, 240, 240);      /*--info*/
+    background-color: rgb(86, 240, 240);
+
+
+}
+
+/* footer @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@2*/
+.ico{
+    margin: 5px;
+    background-color: aquamarine;
+    width: 35px;
+    height: 35px;
+    border: 1px solid rgb(48, 6, 6);
+    border-radius: 8px;
+    padding: 5px;
+}
+.ico:hover{
+   
+    border-color: white;
+}
+<!-- cart4444 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
+.father{
+    position: relative;
+    /* transition: 3s; */
+}
+.cards{
+position: absolute;
+opacity: 0;
+bottom: -1;
+}
+.father:hover .cards{
+    opacity: 1;
+bottom: 0;
+background-color: aliceblue;
+width: 100%;
+/* transition: 3s; */
+}
+.mn{
+    transition: 1s;
+}
+.flash:hover{
+    margin: 5px;
+    background-color: blue;
+    width: 25px;
+    height: 25px;
+    border: 1px solid rgb(48, 6, 6);
+    border-radius: 8px;
+    padding: 5px;
+}
